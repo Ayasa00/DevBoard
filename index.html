@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Board</title>
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body class=" bg-blue-50 p-10">
+
+    <header >
+        <div class=" bg-white flex row justify-between mb-10 rounded-xl p-3">
+        <div class="flex row p-3 ">
+             
+            <img  src="assets/logo.png" alt=""> 
+            <h1 class="pt-3 text-3xl">Dev<span class="font-bold text-3xl">Board</span></h1>
+     
+        </div>
+
+        <div  class="flex row gap-3 p-5">
+              <img  src="assets/checkbox.png" alt="">
+            
+            <h1 id="addition" class="font-bold text-3xl ">23</h1>
+
+            <div id="theme-checkbox" class="cursor-pointer w-10 h-10"  >
+               <img  src="assets/theme-btn.png" alt="">
+            </div>
+           
+        </div>
+
+        </div>
+       
+    </header>
+
+
+
+
+  <main>
+  <div class="flex gap-5 ">
+
+  
+  <div class=" bg-white p-5 h-215 w-270 rounded-xl">
+
+ <!--2nd Section-->
+
+  <div class="flex gap-5">
+  <div class=" flex gap-8 bg-blue-50 w-80 h-30  p-8 rounded-xl ">
+
+  <div class="rounded-full w-14 text-xl bg-white">
+  <img class="pt-4 pl-3" src="assets/checkbox.png" alt="" />
+  </div>
+
+  <div class="card-body1 text-xl">
+    <h2 class="card-title1 font-bold text-gray-500">Task Assigned</h2>
+    <p id="subtraction" class="font-bold text-2xl">05</p> 
+  </div>
+</div>
+
+
+  <div id="secondpage" class="flex gap-8 bg-blue-400 w-100 h-30  p-6 rounded-xl text-xl">
+  <figure>
+  <img src="assets/board.png" alt="" />
+  </figure>
+  <div class="card-body2">
+    <h2 class="card-title2  pt-3 text-white font-bold">Discover Something</h2>
+    <p class="font-bold text-white">New Today!</p>
+  </div>
+</div>
+
+
+  <div id="card3" class=" flex  bg-blue-100 w-60 rounded-xl">
+  <div class="rounded-full m-6 h-14 w-14 text-xl bg-white">
+  <img class="pl-3 pt-3" src="assets/calender.png" alt="" />
+  </div>
+  <div id="card-body3" class=" pt-7 text-xl">
+  
+  </div>
+  </div>
+  </div>
+
+
+  <!--3rd section-->
+
+  <div class="grid grid-cols-3 mt-15 gap-5">
+
+
+  <div class="flex bg-blue-50 w-80 h-70 p-2 rounded-xl">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    
+    <div>
+      <button class="btn bg-white text-gray-500 font-bold rounded-xl ">CloudSync</button>
+      <h1 id="activitybox" class="text-xl font-bold pt-3 ">Add Dark Mode</h1>
+      <div class="mt-4 ">
+      <p class="bg-white w-70 h-18 p-2 rounded-xl text-gray-500">
+       Store the user's preference in localStorage, update CSS varia
+       <!--bles dynamically, and apply a smooth transition effect.-->
+      </div>
+      
+      <div class="flex justify-between pt-5 ">
+        <div >
+        <h1 class=" text-gray-400 font-bold ">Deadline</h1>
+        <p class=" font-bold">21 March 2025</p>
+      </div >
+      <div><button id="complete-btn-1" class="btn btn-active bg-blue-600 text-white ml-13 rounded-xl ">Completed</button></div>
+    </div>
+    
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+  <div class="flex bg-blue-50 w-80 h-70 p-2 rounded-xl">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    
+    <div>
+      <button class="btn bg-white text-gray-500 font-bold rounded-xl ">SwiftPay</button>
+      <h1 id="activitybox" class="text-xl font-bold pt-3 ">Optimize  Home page </h1>
+      <div class="mt-4 ">
+      <p class="bg-white w-70 h-18 p-2 rounded-xl text-gray-500">
+       Debug using Chrome DevTools, check for overlapp
+       <!--ing elements, and ensure onClick works properly and ensure onClick works properly-->
+      </p>
+      </div>
+      
+      <div class="flex justify-between pt-5 ">
+        <div >
+        <h1 class=" text-gray-400 font-bold ">Deadline</h1>
+        <p class=" font-bold">21 March 2025</p>
+      </div >
+      <div><button id="complete-btn-2" class="btn btn-active bg-blue-600 text-white ml-13 rounded-xl ">Completed</button></div>
+    </div>
+    
+  </div>
+</div>
+</div>
+
+
+
+
+
+ <div class="flex bg-blue-50 w-80 h-70 p-2 rounded-xl">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    
+    <div>
+      <button class="btn bg-white text-gray-500 font-bold rounded-xl ">Meta</button>
+      <h1 id="activitybox" class="text-xl font-bold pt-3 ">Add new emoji 🤲</h1>
+      <div class="mt-4 ">
+      <p class="bg-white w-70 h-18 p-2 rounded-xl text-gray-500">
+       Debug using Chrome DevTools, check for overlapp
+       <!--ing elements, and ensure onClick works properly and ensure onClick works properly-->
+      </p>
+      </div>
+      
+      <div class="flex justify-between pt-5 ">
+        <div >
+        <h1 class=" text-gray-400 font-bold ">Deadline</h1>
+        <p class=" font-bold">21 March 2025</p>
+      </div >
+      <div><button id="complete-btn-3" class="btn btn-active bg-blue-600 text-white ml-13 rounded-xl ">Completed</button></div>
+    </div>
+    
+  </div>
+</div>
+</div>
+
+
+
+
+   <div class="flex bg-blue-50 w-80 h-70 p-2 rounded-xl">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    
+    <div>
+      <button class="btn bg-white text-gray-500 font-bold rounded-xl ">Google LLC</button>
+      <h1 id="activitybox" class="text-xl font-bold pt-3 ">Integrate OpenAI API </h1>
+      <div class="mt-4 ">
+      <p class="bg-white w-70 h-18 p-2 rounded-xl text-gray-500">
+       Debug using Chrome DevTools, check for overlapp
+       <!--ing elements, and ensure onClick works properly and ensure onClick works properly-->
+      </p>
+      </div>
+      
+      <div class="flex justify-between pt-5 ">
+        <div >
+        <h1 class=" text-gray-400 font-bold ">Deadline</h1>
+        <p class=" font-bold">21 March 2025</p>
+      </div >
+      <div><button id="complete-btn-4" class="btn btn-active bg-blue-600 text-white ml-13 rounded-xl ">Completed</button></div>
+    </div>
+    
+  </div>
+</div>
+</div>
+
+
+
+
+
+   <div class="flex bg-blue-50 w-80 h-70 p-2 rounded-xl">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    
+    <div>
+      <button class="btn bg-white text-gray-500 font-bold rounded-xl ">Glassdoar</button>
+      <h1 id="activitybox" class="text-xl font-bold pt-3 ">Improve Job searching </h1>
+      <div class="mt-4 ">
+      <p class="bg-white w-70 h-18 p-2 rounded-xl text-gray-500">
+       Debug using Chrome DevTools, check for overlapp
+       <!--ing elements, and ensure onClick works properly and ensure onClick works properly-->
+      </p>
+      </div>
+      
+      <div class="flex justify-between pt-5 ">
+        <div >
+        <h1 class=" text-gray-400 font-bold ">Deadline</h1>
+        <p class=" font-bold">21 March 2025</p>
+      </div >
+      <div><button id="complete-btn-5" class="btn btn-active bg-blue-600 text-white ml-13 rounded-xl ">Completed</button></div>
+    </div>
+    
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+  <div class="flex bg-blue-50 w-80 h-70 p-2 rounded-xl">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    
+    <div>
+      <button class="btn bg-white text-gray-500 font-bold rounded-xl ">ShopEase</button>
+      <h1 id="activitybox" class="text-xl font-bold pt-3 ">Fix Mobile Button Issue</h1>
+      <div class="mt-4 ">
+      <p class="bg-white w-70 h-18 p-2 rounded-xl text-gray-500">
+       Debug using Chrome DevTools, check for overlapp
+       <!--ing elements, and ensure onClick works properly and ensure onClick works properly-->
+      </p>
+      </div>
+      
+      <div class="flex justify-between pt-5 ">
+        <div >
+        <h1 class=" text-gray-400 font-bold ">Deadline</h1>
+        <p class=" font-bold">21 March 2025</p>
+      </div >
+      <div><button id="complete-btn-6" class="btn btn-active bg-blue-600 text-white ml-13 rounded-xl ">Completed</button></div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<!--opposite section-->
+  <div>
+  <div class=" bg-white rounded-xl h-215 w-80">
+    <div class="flex gap-3 pt-7 justify-center item-center">
+      <img  class="pl-5" src="assets/activity.png" alt="" />
+      <p class="font-bold"> Activity Log </p>
+    </div>
+
+    <button id="clear" class="btn btn-active bg-blue-600 text-white ml-30 mt-3 rounded-xl ">Clear History</button>
+     
+    <div id="activity-log" class="m-5 bg-blue-50 p-3 rounded-xl">
+      
+    </div>
+     
+
+
+
+  </div>
+  
+
+       
+
+
+        
+   
+</div>
+</main>
+
+
+<!--js part-->
+<script src="complete.js"></script>
+<script src="secondpage.js" > </script>
+<script src="firstpage.js"></script>
+<script src="themecolor.js"></script>
+<script src="activitylog.js"></script>
+
+
+
+</body>
+</html>
